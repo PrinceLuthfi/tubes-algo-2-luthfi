@@ -1,0 +1,10 @@
+{
+  "deploy": {
+    "startCommand": "java -Dserver.port=$PORT -jar target/*.jar"
+  },
+  "build": {
+    "environment": {
+      "RAILPACK_JDK_VERSION": "25"
+    }
+  }
+}
